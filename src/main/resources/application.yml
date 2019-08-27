@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /docker
+  port: 8989
+  
+spring:
+  mvc:
+    view:
+      prefix: /jsp/
+      suffix: .jsp
